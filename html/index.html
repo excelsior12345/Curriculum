@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourCv.net</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/inicio.js"></script>
+</head>
+<body>
+
+    <header id="inc">
+        <div class="fondo">
+            <div id="cv">
+                <h1 id="lcv">YourCv.net</h1>
+         </div>
+</header>
+
+ <div id="init">
+   
+   <fieldset>
+    <form id="primero">
+            <label >Usuario</label><br>
+            <input type="text"  name="name" id="usuario" placeholder="Name"><br>
+            <p id="cusuario"></p>
+
+            <label >Contraseña</label><br>
+            <input type="password" name="name" id="pass" placeholder="password"><br><br>
+            <p id="cpass"></p>
+
+            
+            <input id="validar" type="button" name="send" value="validar" onclick="validar1()"><br>
+            <br>
+            <input id="reset" type="reset" placeholder="Clear"><br>
+
+            <p id="comprobacion"></p>
+        </form>
+    </fieldset>
+</div> 
+
+
+<form id="segundo">
+    <fieldset id="segundo1">
+
+        <br><br>
+        <label>Nombre: </label>
+        <input type="text" name="Nombre" id="nombre">
+        <br>
+        <label>Apellidos: </label>
+        <input type="text" name="Apellidos" id="apellido">
+        <br>
+        <label>Edad: </label>
+        <input type="number" name="edad" id="edad">
+        <br>
+        <label>Telefono: </label>
+        <input type="nunmber" placeholder="+34" name="Telefono" id="tel">
+        <br>
+        <label>Experiencia: </label>
+        <textarea type="text" class="grande" id="experiencia" name="experiencia"  name="experiencia"></textarea>
+        <!-- <input class="grande" type="text" name="Experiencia" id="experiencia"> -->
+        <br>
+        <label>Sobre mi: </label>
+        <textarea class="grande" type="text" placeholder="escribe algo sobre ti" name="sobre" id="sobre"></textarea>
+        <!-- <input class="grande" type="text" name="sobre" id="sobre"> -->
+        <br>
+        <label>Link Imagen: </label>
+        <input class="medio" type="text" name="imagen" id="img">
+        <br>
+        <p id="rellena"></p>
+        <br>
+        <input type="button" id="enviar" value="Enviar" onclick="crear()">
+        <br><br>
+        <input type="reset">
+          
+      
+    </div>
+  
+
+</fieldset>
+
+</form>
+
+<form id="tercero">
+    <fieldset>
+        <div class="fondo">
+            <div id="rimg">
+                <img id="img1" src="" alt="">
+            </div>
+            <div id="rnombre1">
+                <h2 id="rnombre"></h2>
+            </div>
+        </div>
+
+    <div id="inf">
+        <div id="inf1">
+            <H2 class="cont">CONTACTAME</H2>
+            <p id="redad"></p>
+            <p id="rtelefono"></p>
+            <br><br>
+            <p id="rsobremi"></p>
+        </div>
+
+        <div id="inf2"> 
+            <H2 class="cont">Experiencia</H2>
+            <p id="rexperiencia"></p>
+        </div>
+    </div>
+
+
+
+    </fieldset>
+
+
+</form>
+
+<div class="footer-basic">
+    <footer>
+        <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Home</a></li>
+            <li class="list-inline-item"><a href="#">Services</a></li>
+            <li class="list-inline-item"><a href="#">About</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright">Company Name © 2018</p>
+    </footer>
+</div>
+</body>
+</html>
